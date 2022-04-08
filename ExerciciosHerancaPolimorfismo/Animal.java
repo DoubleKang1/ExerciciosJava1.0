@@ -12,12 +12,12 @@ public class Animal {
 	public void setNome(String nome) {
 		this.nome = nome;
 	}
-	public String getSom() {
-		return som;
+	
+	public void somAnimal() {//Polimorfismo
+		System.out.println("Ruído");
+		
 	}
-	public void setSom(String som) {
-		this.som = som;
-	}
+	
 	public int getIdade() {
 		return idade;
 	}

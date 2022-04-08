@@ -4,6 +4,12 @@ public class Cachorro extends Animal {
 	
 	private String correr;
 	
+	@Override
+	public void somAnimal() {//Polimorfismo
+		System.out.println("AuAuAu");
+		
+	}
+	
 	public void correr() {
 		System.out.println("Correndo");
 	}
@@ -23,7 +29,6 @@ public class Cachorro extends Animal {
 	public void estado() {
 		System.out.println("Nome: "+this.getNome());
 		System.out.println("Idade: "+this.getIdade());
-		System.out.println("Som: "+this.getSom());
 		System.out.println("Situação: "+this.isCorrer());
 		System.out.println("\n");
 	}

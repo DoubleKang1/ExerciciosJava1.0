@@ -4,6 +4,12 @@ public class Preguiça extends Animal{
 	
 	private String subir;
 	
+	@Override
+	public void somAnimal() {//Polimorfismo
+		System.out.println("Fiiii");
+		
+	}
+	
 	public void subindo() {
 	}
 	
@@ -22,7 +28,6 @@ public class Preguiça extends Animal{
 	public void estado() {
 		System.out.println("Nome: "+this.getNome());
 		System.out.println("Idade: "+this.getIdade());
-		System.out.println("Som: "+this.getSom());
 		System.out.println("Situação: "+this.isSubir());
 		System.out.println("\n");
 	}
